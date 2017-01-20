@@ -14,7 +14,7 @@ docker push 10.19.13.36:5000/aijob-console:v1.0
 #--net=host  表示为主机(host)模式  去掉该配置，默认为桥接(bridge)模式
 #-e 代表需要设置的环境变量
 docker run -d --name aijob-console  -p 14135:8080  \
-10.19.13.36:5000/yc/aijob-console:v1.0_20
+10.19.13.36:5000/yc/aijob-console:v1.0_1
 
 #查看镜像启动日志
 docker logs aijob-console
